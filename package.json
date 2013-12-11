@@ -1,0 +1,19 @@
+{
+  "name": "proxy-events",
+  "version": "0.0.1",
+  "repository": "segmentio/proxy-events",
+  "description": "Proxy events from one emitter to another.",
+  "keywords": [
+    "events",
+    "emitter",
+    "proxy",
+    "forward"
+  ],
+  "dependencies": {
+    "wildcards": "~1.0.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "license": "MIT"
+}
