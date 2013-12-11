@@ -27,6 +27,12 @@ subapp.emit('foo', 'bar');
 // "bar"
 ```
 
+## API
+
+### proxy(one, another, [prefix])
+
+  Proxy events from `one` emitter to `another` with an optional `prefix`.
+
 # License
 
   MIT
