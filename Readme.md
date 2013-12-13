@@ -1,4 +1,3 @@
-
 # proxy-events
 
   Proxy events from one emitter to another.
@@ -14,12 +13,12 @@ $ component install segmentio/proxy-events
 
 ```js
 var Emitter = require('events').EventEmitter;
-var events = require('proxy-events');
+var proxy = require('proxy-events');
 
 var app = new Emitter;
 var subapp = new Emitter;
 
-events(subapp, app);
+proxy(subapp, app);
 
 app.on('foo', console.log);
 
