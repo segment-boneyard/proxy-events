@@ -2,6 +2,8 @@
 
   Proxy events from one emitter to another.
 
+  [![Build Status](https://travis-ci.org/segmentio/proxy-events.png?branch=master)](https://travis-ci.org/segmentio/proxy-events)
+
 ## Installation
 
 ```
@@ -22,7 +24,7 @@ proxy(subapp, app);
 
 app.on('foo', console.log);
 
-subapp.emit('foo', 'bar'); 
+subapp.emit('foo', 'bar');
 // "bar"
 ```
 
